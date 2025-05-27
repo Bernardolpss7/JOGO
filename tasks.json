@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "🔨 Compilar Jogo Dungeon Crawler",
+        "type": "shell",
+        "command": "gcc",
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-g3",
+          "src/main.c",
+          "src/interfaces.c",
+          "src/jogo.c",
+          "src/menu.c",
+          "src/terminal.c",
+          "-o",
+          "src/output/main.exe"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Compila todos os arquivos do jogo (main + interfaces + jogo)"
+      }
+    ]
+  }
+  
+  
