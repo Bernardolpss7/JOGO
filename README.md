@@ -61,6 +61,7 @@ Três erros com espinhos te mandam de volta pro menu.
 Estudante de Ciência da Computação - Centro Universitário do Estado do Pará (CESUPA)
 
 💡 Perguntas feitas ao ChatGPT durante o desenvolvimento
+
 Como faço para ter um contador de mortes por espinhos?
 
 Como faço o monstro andar aleatoriamente?
