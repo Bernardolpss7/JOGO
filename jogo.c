@@ -138,8 +138,8 @@ void jogo3(int *morteE2)
         if (y == iy && x == ix)
         {
             system("cls");
-            derrota();
-            menu();
+            reinicio();
+            jogo3(morteE2);
             return;
         }
         if (mapa[y][x] == '#')
@@ -155,11 +155,12 @@ void jogo3(int *morteE2)
             else
             {
                 system("cls");
+                reinicio();
                 jogo3(morteE2);
                 return;
             }
         }
-        if (vy == y && vx == x)
+        if ((y == vy && x == vx) || (mapa[y][x] == 'V'))
         {
             system("cls");
             reinicio();
@@ -205,11 +206,11 @@ void jogo3(int *morteE2)
             }
             else
             {
-                if (dy > 0 && mapa[vy + 1][vx] != '*' && mapa[vy + 1][vx] != '*' && mapa[vy + 1][vx] != '*' && mapa[vy + 1][vx] != '*' && mapa[vy + 1][vx] != '*')
+                if (dy > 0 && mapa[vy + 1][vx] != '*' && mapa[vy + 1][vx] != '@' && mapa[vy + 1][vx] != 'O' && mapa[vy + 1][vx] != 'D' && mapa[vy + 1][vx] != '#')
                 {
                     vy++;
                 }
-                else if (dy < 0 && mapa[vy - 1][vx] != '*' && mapa[vy - 1][vx] != '*' && mapa[vy - 1][vx] != '*' && mapa[vy - 1][vx] != '*' && mapa[vy - 1][vx] != '*')
+                else if (dy < 0 && mapa[vy - 1][vx] != '*' && mapa[vy - 1][vx] != '@' && mapa[vy - 1][vx] != 'O' && mapa[vy - 1][vx] != 'D' && mapa[vy - 1][vx] != '#')
                 {
                     vy--;
                 }
@@ -222,6 +223,7 @@ void jogo3(int *morteE2)
 }
 void jogo2(int *morteE)
 {
+    system("cls");
     srand(time(NULL));
     int morteE2 = 0;
     char tecla;
@@ -375,8 +377,8 @@ void jogo2(int *morteE)
         if (y == iy && x == ix)
         {
             system("cls");
-            derrota();
-            menu();
+            reinicio();
+            jogo2(morteE);
             return;
         }
         if (mapa[y][x] == '#')
