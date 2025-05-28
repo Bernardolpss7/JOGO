@@ -6,19 +6,20 @@ void telainicial(void){
     system("cls");
     printf("\n\n\n");
     printf("==============================================\n");
-    printf("        BEM-VINDO AO DUNGEON CRAWLER!\n");
+    printf("            BEM-VINDO AO CODE CRAWL!\n");
     printf("==============================================\n");
     printf("\n");
 
-    printf("             ▄████▄   ██ ▄█▀ ▓█████ \n");
-    printf("            ▒██▀ ▀█   ██▄█▒  ▓█   ▀ \n");
-    printf("            ▒▓█    ▄ ▓███▄░  ▒███   \n");
-    printf("            ▒▓▓▄ ▄██ ▓██ █▄  ▒▓█  ▄ \n");
-    printf("            ▒ ▓███▀  ▒██▒ █▄ ░▒████▒\n");
-    printf("            ░ ░▒ ▒   ▒ ▒▒ ▓▒ ░░ ▒░ ░\n");
-    printf("              ░  ▒   ░ ░▒ ▒░  ░ ░  ░\n");
-    printf("            ░        ░ ░░ ░     ░   \n");
-    printf("            ░ ░      ░  ░       ░  ░\n");
+    printf("                ▄████▄   ▄████▄         \n");
+    printf("               ▒█    █▒ ▒█    █▒        \n");
+    printf("               ▒█       ▒█              \n");
+    printf("               ▒█       ▒█              \n");
+    printf("               ▒█       ▒█              \n");
+    printf("               ▒█    █▒ ▒█    █▒        \n");
+    printf("                ▀████▀   ▀████▀         \n");
+    printf("                                        \n");
+    printf("              C O D E   C R A W L        \n");
+
     printf("\n");
     printf("==============================================\n");
     printf("                 1 PARA JOGAR\n");
