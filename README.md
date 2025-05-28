@@ -1,13 +1,13 @@
 # JOGO
 
-🏹 DUNGEON QUEST: Shadows of the Code
+🏹 CodeCrawl
 📜 Lore
 No reino esquecido de Codaria, um aventureiro solitário se lança nas profundezas de uma masmorra amaldiçoada. Seu objetivo: conquistar os desafios, escapar de monstros traiçoeiros e desbloquear os segredos perdidos no coração do código.
 
 Mas cuidado... os corredores estão vivos. Armadilhas surgem do nada, monstros te caçam sem piedade, e enigmas ancestrais protegem as portas da vitória. Apenas os mais habilidosos conseguem atravessar as sombras dessa Dungeon digital.
 
 🎮 Sobre o Jogo
-Dungeon Quest: Shadows of the Code é um jogo no estilo Dungeon Crawler + Puzzle, desenvolvido totalmente em Linguagem C, com interface em terminal (console). O jogador deve atravessar três fases repletas de desafios, inimigos e enigmas, utilizando raciocínio lógico e estratégia.
+CodeCrawl é um jogo no estilo Dungeon Crawler + Puzzle, desenvolvido totalmente em Linguagem C, com interface em terminal (console). O jogador deve atravessar três fases repletas de desafios, inimigos e enigmas, utilizando raciocínio lógico e estratégia.
 
 🔑 Objetivo
 Colete chaves, ative botões, desvie de armadilhas, fuja de monstros e abra portas para progredir. Vença todas as três fases para escapar da masmorra e se tornar uma lenda.
