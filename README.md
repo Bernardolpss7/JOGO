@@ -23,7 +23,7 @@ O Botão | * Espinho | > Teleporte | X Monstro aleatório | V Monstro perseguido
 
 Regras
 
-Bater em X, V ou pisar em * → reinicia fase.
+Bater em X, V ou pisar em # → reinicia fase.
 
 3 erros nos espinhos → volta pro menu.
 
