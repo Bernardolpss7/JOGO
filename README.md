@@ -30,3 +30,21 @@ Bater em X, V ou pisar em * → reinicia fase.
 Dev
 
 Bernardo Lopes — CESUPA
+
+Perguntas feitas ao ChatGPT durante o desenvolvimento
+
+Como faço para ter um contador de mortes por espinhos?
+
+Como faço o monstro andar aleatoriamente?
+
+Como faço um monstro inteligente que persegue o jogador?
+
+Como usar funções nesse jogo?
+
+Como compilar e rodar arquivos .c distintos?
+
+Como devo organizar meu projeto?
+
+Me diga a estrutura do jogo no VS Code.
+
+Como configurar um tasks.json no VS Code?
