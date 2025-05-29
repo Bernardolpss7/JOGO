@@ -48,7 +48,7 @@ void jogo3(int *morteE2)
     {
         espy = (rand() % 38) + 1;
         espx = (rand() % 38) + 1;
-        if (mapa[espy][espx] != 'V' && mapa[espy][espx] != '*' && mapa[espy][espx] != 'X' && mapa[espy][espx] != 'O' && mapa[espy][espx] != '@' && mapa[espy][espx] != '>')
+        if (mapa[espy][espx] != 'V' && mapa[espy][espx] != '*' && mapa[espy][espx] != 'X' && mapa[espy][espx] != 'O' && mapa[espy][espx] != '@' && mapa[espy][espx] != '>' && (espy >= 1 && espy<=34) && (espx >= 1 && espx <= 34))
         {
             mapa[espy][espx] = '#';
             ctd++;
@@ -394,6 +394,7 @@ void jogo2(int *morteE)
             else
             {
                 system("cls");
+                reinicio();
                 jogo2(morteE);
                 return;
             }
